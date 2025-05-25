@@ -6,13 +6,12 @@ import grainImage from "@/assets/images/grain.jpg";
 import { useState } from "react";
 import CloseX from "@/assets/icons/CloseX.svg";
 import StarIcon from "@/assets/icons/star.svg";
-import Mailsvg from "@/assets/icons/mailsvg.svg"
-import Phone from "@/assets/icons/phone.svg"
-import Github from "@/assets/icons/github.svg"
-import Address from "@/assets/icons/address.svg"
-import LinkedIn from "@/assets/icons/linkedin.svg"
-import Youtube from "@/assets/icons/youtube.svg"
-
+import Mailsvg from "@/assets/icons/mailsvg.svg";
+import Phone from "@/assets/icons/phone.svg";
+import Github from "@/assets/icons/github.svg";
+import Address from "@/assets/icons/address.svg";
+import LinkedIn from "@/assets/icons/linkedin.svg";
+import Youtube from "@/assets/icons/youtube.svg";
 
 export const ContactSection = () => {
   const [contactScreen, setContactScreen] = useState(false);
@@ -65,7 +64,7 @@ export const ContactSection = () => {
           number: "",
         });
         setContactScreen(false);
-        
+
         toast.success("Email sent successfully!");
       } else {
         setStatus(result.message || "Failed to send message.");
@@ -89,16 +88,17 @@ export const ContactSection = () => {
           <div className="flex flex-col gap-8 items-center md:flex-row md:gap-16">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
-                Let{"'"}s Create something Amazing togather
+                Let{"'"}s Create something Amazing together
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Ready to bring your project Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Quisquam blanditiis quidem culpa
-                voluptatem nesciunt, labore accusantium ratione iusto amet
-                officiis! Quisquam odio impedit nihil at! Vel ad quisquam
-                provident delectus.
+                Ready to bring your vision to life? Whether you're launching a
+                new product, building an online presence, or crafting a custom
+                digital experience, we're here to turn your ideas into reality.
+                With a focus on quality, creativity, and collaboration, let's
+                work side by side to build something truly impactful.
               </p>
             </div>
+
             <div>
               <button
                 onClick={() => setContactScreen(true)}

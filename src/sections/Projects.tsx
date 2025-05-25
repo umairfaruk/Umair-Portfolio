@@ -1,6 +1,6 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import AlNoorFan from "@/assets/images/Al-Noor.png";
+import sehacapital from "@/assets/images/sehacapital.png"
+import reayahCapital from "@/assets/images/reayahcapital.png" 
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -10,40 +10,40 @@ import Card from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
+    company: "Al-Noor Industry",
     year: "2022",
-    title: "Dark Saas Landing Page",
+    title: "Al-Noor Fan E-commerce Platform",
     results: [
       { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Improved site speed by 80%" },
+      { title: "Increased real traffic by 55%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://www.alnoorfans.com/",
+    image: AlNoorFan,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Seha-Capital",
+    year: "2024",
+    title: "Seha Capital Company Website",
     results: [
-      { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
+      { title: "Boosted sales by 20%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://sehacapital.net/",
+    image: sehacapital,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "ReayahCapital",
+    year: "2025",
+    title: "Reayah Capital Company Website",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://reayah-capital.vercel.app/",
+    image: reayahCapital,
   },
 ];
 

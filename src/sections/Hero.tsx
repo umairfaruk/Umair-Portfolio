@@ -131,7 +131,7 @@ export const HeroSection = () => {
               <div className="bg-green-500 absolute animate-ping-large inset-0 rounded-full"></div>
             </div>
             <div className="text-sm font-medium">
-              Available for New Projects
+              Available for New Role
             </div>
           </div>
         </div>
@@ -151,9 +151,9 @@ export const HeroSection = () => {
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
           </button>
-          <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-lg">
+          <button onClick={() => handleClick({ value: "contact" })} className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-lg">
             <span>👋</span>
-            <span className="font-semibold ">Let's connect</span>
+            <span className="font-semibold " >Let's connect</span>
           </button>
         </div>
       </div>

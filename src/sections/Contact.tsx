@@ -6,7 +6,14 @@ import grainImage from "@/assets/images/grain.jpg";
 import { useState } from "react";
 import CloseX from "@/assets/icons/CloseX.svg";
 import StarIcon from "@/assets/icons/star.svg";
-import axios from "axios";
+import Mailsvg from "@/assets/icons/mailsvg.svg"
+import Phone from "@/assets/icons/phone.svg"
+import Github from "@/assets/icons/github.svg"
+import Address from "@/assets/icons/address.svg"
+import LinkedIn from "@/assets/icons/linkedin.svg"
+import Youtube from "@/assets/icons/youtube.svg"
+
+
 export const ContactSection = () => {
   const [contactScreen, setContactScreen] = useState(false);
   const [service, setService] = useState("");
@@ -119,21 +126,21 @@ export const ContactSection = () => {
                 <span className="text-emerald-300">great</span> together.
               </h1>
               <div className="flex gap-8">
-                <StarIcon className="size-8 text-emerald-300" />
+                <Mailsvg className="size-8" />
                 <span>mrumair775@gmail.com</span>
               </div>
               <div className="flex gap-8">
-                <StarIcon className="size-8 text-emerald-300" />
+                <Phone className="size-8 " />
                 <span>+966 57 036 2407</span>
               </div>
               <div className="flex gap-8">
-                <StarIcon className="size-8 text-emerald-300" />
+                <Address className="size-8 text-emerald-300" />
                 <span>Al-Amal, Riyadh Saudi Arabia</span>
               </div>
               <div className="flex gap-8 mt-8 ">
-                <StarIcon className="size-8 text-emerald-300" />{" "}
-                <StarIcon className="size-8 text-emerald-300" />{" "}
-                <StarIcon className="size-8 text-emerald-300" />
+                <LinkedIn className="size-8 text-emerald-300" />{" "}
+                <Github className="size-8 text-emerald-300" />{" "}
+                <Youtube className="size-8 text-emerald-300" />
               </div>
             </div>
             <div className="w-full h-full font-serif bg-gradient-to-r text-gray-900 from-emerald-600/80 to-sky-500/80 rounded-xl md:mr-10">

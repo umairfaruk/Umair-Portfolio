@@ -25,8 +25,8 @@ export const Footer = () => {
         <div className="border-t  border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
           <div className="text-white/40">&copy; 2025. All rights Recived</div>
           <nav className="flex flex-col md:flex-row items-center gap-8">
-            {footerLinks.map((item) => (
-              <a href={item.href} target="_blank" className="inline-flex gap-1.5 cursor-pointer">
+            {footerLinks.map((item,idx) => (
+              <a key={idx} href={item.href} target="_blank" className="inline-flex gap-1.5 cursor-pointer">
                 <span className="font-semibold">{item.title}</span>
                 <ArrowUpRightIcon className="size-4" />
               </a>

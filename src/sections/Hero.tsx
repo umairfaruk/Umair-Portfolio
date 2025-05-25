@@ -142,7 +142,7 @@ export const HeroSection = () => {
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in transforming ideas into user-friendly digital
             experiences. My focus is on creating intuitive interfaces that
-            enhance user satisfaction and drive engagement. Let's discuss your
+            enhance user satisfaction and drive engagement. Let{"'"}s discuss your
             next project
           </p>
         </div>
@@ -153,7 +153,7 @@ export const HeroSection = () => {
           </button>
           <button onClick={() => handleClick({ value: "contact" })} className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-lg">
             <span>👋</span>
-            <span className="font-semibold " >Let's connect</span>
+            <span className="font-semibold " >Let{"'"}s connect</span>
           </button>
         </div>
       </div>

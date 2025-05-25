@@ -87,7 +87,7 @@ const hobbiesItems = [
 
 export const AboutSection = () => {
 
-  const constrainRef = useRef()
+  const constrainRef = useRef<HTMLDivElement>(null)
 
   return (
     <div className="py-20 lg:py-28" id="about">

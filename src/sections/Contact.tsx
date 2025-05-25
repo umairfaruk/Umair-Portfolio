@@ -89,7 +89,7 @@ export const ContactSection = () => {
           <div className="flex flex-col gap-8 items-center md:flex-row md:gap-16">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
-                Let's Create something Amazing togather
+                Let{"'"}s Create something Amazing togather
               </h2>
               <p className="text-sm md:text-base mt-2">
                 Ready to bring your project Lorem ipsum dolor sit amet
@@ -122,7 +122,7 @@ export const ContactSection = () => {
             </div>
             <div className=" md:w-full h-full hidden md:flex flex-col gap-8">
               <h1 className="mt-4 font-bold text-5xl tracking-wide">
-                Let's talk on something{" "}
+                Let{"'"}s talk on something
                 <span className="text-emerald-300">great</span> together.
               </h1>
               <div className="flex gap-8">

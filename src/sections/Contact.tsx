@@ -91,10 +91,10 @@ export const ContactSection = () => {
                 Let{"'"}s Create something Amazing together
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Ready to bring your vision to life? Whether you're launching a
+                Ready to bring your vision to life? Whether you{"'"}re launching a
                 new product, building an online presence, or crafting a custom
-                digital experience, we're here to turn your ideas into reality.
-                With a focus on quality, creativity, and collaboration, let's
+                digital experience, we{"'"}re here to turn your ideas into reality.
+                With a focus on quality, creativity, and collaboration, let{"'"}s
                 work side by side to build something truly impactful.
               </p>
             </div>

@@ -98,7 +98,7 @@ export const HeroSection = () => {
           shouldSpin={true}
           spinDuration="6s"
         >
-          <div className="size-2 rounded-full bg-emerald-300/20" />
+          <div className="size-2 rounded-full bg-emerald-300/20 animate-ping" />
         </HeroOrbit>
         <HeroOrbit
           size={440}

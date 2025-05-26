@@ -34,7 +34,7 @@ const portfolioProjects = [
     image: sehacapital,
   },
   {
-    company: "ReayahCapital",
+    company: "Reayah-Capital",
     year: "2025",
     title: "Reayah Capital Company Website",
     results: [

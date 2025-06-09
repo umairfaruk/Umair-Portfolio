@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import memojiImage from "@/assets/images/memoji-computer.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
@@ -9,8 +9,19 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 import { handleClick } from "./Header";
 
 export const HeroSection = () => {
+
+  const handleResumeClick = () => {
+    const resumeUrl = "https://drive.google.com/file/d/1i9fC6DNFsuS8ByBYaWSaLi2WRDMkmIM6/view?usp=sharing";
+    window.open(resumeUrl, "_blank");
+  }
+
+
+
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip" id="home">
+    <div
+      className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
+      id="home"
+    >
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]  -z-10">
         <div
           className="absolute inset-0 -z-30 opacity-5"
@@ -33,7 +44,12 @@ export const HeroSection = () => {
         >
           <StarIcon className="size-28 text-emerald-300" />
         </HeroOrbit>
-        <HeroOrbit size={710} rotation={144}  shouldOrbit={true} OrbitDuration="46s">
+        <HeroOrbit
+          size={710}
+          rotation={144}
+          shouldOrbit={true}
+          OrbitDuration="46s"
+        >
           <SparkleIcon className="size-14 text-emerald-300/20" />
         </HeroOrbit>
 
@@ -130,9 +146,7 @@ export const HeroSection = () => {
             <div className="bg-green-500 relative size-2.5 rounded-full">
               <div className="bg-green-500 absolute animate-ping-large inset-0 rounded-full"></div>
             </div>
-            <div className="text-sm font-medium">
-              Available for New Role
-            </div>
+            <div className="text-sm font-medium">Available for New Role</div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
@@ -142,18 +156,26 @@ export const HeroSection = () => {
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in transforming ideas into user-friendly digital
             experiences. My focus is on creating intuitive interfaces that
-            enhance user satisfaction and drive engagement. Let{"'"}s discuss your
-            next project
+            enhance user satisfaction and drive engagement. Let{"'"}s discuss
+            your next project
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button onClick={() => handleClick({ value: "project" })}  className="inline-flex items-center gap-2  border border-white/15 px-6 h-12 rounded-lg">
+          <button
+            onClick={() => handleClick({ value: "project" })}
+            className="inline-flex items-center gap-2  border border-white/15 px-6 h-12 rounded-lg"
+          >
             <span className="font-semibold">Explore My Work</span>
-            <ArrowDown className="size-4" />
-          </button>
-          <button onClick={() => handleClick({ value: "contact" })} className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-lg">
             <span>👋</span>
-            <span className="font-semibold " >Let{"'"}s connect</span>
+          </button>
+          <button
+            onClick={() => handleResumeClick()}
+            className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-lg"
+          >
+            <span className="font-semibold ">Resume</span>
+            <div className="bg-slate-700 rounded-md p-1">
+              <ArrowDown className="size-4 text-white " />
+            </div>
           </button>
         </div>
       </div>
